@@ -1,0 +1,8 @@
+this.legend_archery_stunt_encounter <- this.inherit("scripts/encounters/encounter_event", {
+    m = {},
+    function create() {
+        this.m.Type = "encounter.legend_archery_stunt_encounter";
+        this.m.Name = "Competition brews...";
+		this.m.Event = "event.archery_stunt";
+    }
+})
